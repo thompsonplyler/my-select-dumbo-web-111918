@@ -1,4 +1,4 @@
 def my_select(collection)
   collect = []
- yield
+  collect << yield
 end
